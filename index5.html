@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="signup">
+        <h2>Стань участником профсоюза</h2>
+        <p>Посетители, зарегистрированные на сайте, получают рассылки, а также узнают, на какие мероприятия записаны.</p>
+        <form action="register.php" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+        
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <button type="submit">Вступить в профсоюз</button>
+        </form>
+    </section>
+</body>
+</html>
